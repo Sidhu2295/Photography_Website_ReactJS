@@ -1,0 +1,55 @@
+.gallery {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.gallery-b-w-intro{
+    position: relative;
+    height: auto;
+    z-index: 1;
+}
+
+.gallery-b-w-intro > figure > img {
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.gallery-b-w-intro > h3{
+    position: absolute;
+    top: 20vh;
+    right: 3vw;
+    font-size: 4vw;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 40px;
+    z-index: 0;
+    color: #fff;
+}
+
+.gallery-container {
+    display: flex;
+    padding-top:20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.gallery-container > .column > figure > img {
+    width: 95%;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 545px){
+    .gallery-b-w-intro > h3 {
+        top: 5vh;
+    }
+
+
+}

@@ -1,0 +1,41 @@
+.contact-container {
+    height: 800px;
+    position: relative;
+}
+
+.form-container {
+    float: left;
+    width: 300px;
+    position: absolute;
+    left: 2vw;
+    padding: 50px 100px 100px 100px;
+}
+
+.form-container > h1 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    float:left;
+    width: 150px;
+    margin-bottom:10px;
+    font-size: 1.2rem;
+}
+
+input {
+    float: left;
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+}
+
+input:nth-child(8) {
+    padding-bottom: 100px;
+    line-height: 1em;
+}
+
+input:nth-child(9) {
+    width:345px;
+}

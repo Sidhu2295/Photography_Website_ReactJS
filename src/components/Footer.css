@@ -1,0 +1,52 @@
+.footer-container {
+    background-color: #352b0f;
+    height: 300px;
+}
+
+.footer-mainlogo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #fff;
+    padding: 25px;
+    font-family: 'Arizonia', cursive;
+    font-size: 3vw;
+}
+
+.footer-links{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.youtube-icon, .twitter-icon, .instagram-icon, .pinterest-icon, .facebook-icon, .linkedin-icon{
+    color: white;
+}
+
+.footer-trademark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Cinzel', serif;
+}
+
+.reveal{
+    position: relative;
+    opacity:0;
+    transition: 2s all ease;
+}
+
+.reveal.active{
+    opacity:1;
+}
+
+@media screen and (max-width: 540px){
+    .footer-mainlogo{
+        font-size: 5.5vw;
+    }
+}
